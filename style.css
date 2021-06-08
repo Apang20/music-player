@@ -12,7 +12,6 @@ body {
   margin: 0;
   min-height: 100vh;
   background-image: url("https://media.giphy.com/media/5xaOcLrTLTxXq7W4sko/giphy.gif");
-  /* background-image: url("https://wallpapercave.com/wp/wp2337052.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -22,8 +21,8 @@ body {
   font-size: 12px;
 }
 .player {
-  height: 400px;
-  width: 400px;
+  height: 450px;
+  width: 410px;
   min-width: 400px;
   margin-top: 100px;
   background: rgb(26, 29, 28);
@@ -41,8 +40,8 @@ body {
 .song-image {
   display: block;
   margin-top: -120px;
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 310px;
   object-fit: cover;
   object-position: bottom;
   border-radius: 50%;
@@ -69,25 +68,25 @@ body {
   margin-top: -120px;
   background: radial-gradient(
     circle,
-    rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 1) 5%,
     rgb(185, 185, 185) 5%,
     rgb(139, 139, 139) 20%,
-    rgba(0, 0, 0, 1) 20%,
-    rgba(0, 0, 0, 1) 70%,
+    rgba(0, 0, 0, 1) 30%,
+    rgba(0, 0, 0, 1) 90%,
     rgba(255, 255, 255, 1) 75%
   );
   border-radius: 50%;
 }
+
 .song-title {
-  font-size: 25px;
+  font-size: 26px;
   text-align: center;
   margin: 0;
   letter-spacing: 2px;
 }
 
 .song-artist {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   font-weight: 400;
   margin: 5px 0 0;
@@ -96,17 +95,18 @@ body {
 /* Progress */
 .progress-container {
   background: rgb(73, 73, 73);
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
   margin: 40px 20px 30px;
-  height: 4px;
+  height: 2px;
   width: 90%;
   font-family: sans-serif;
+  font-size: 15px;
 }
 
 .progress {
   background: #ebebeb;
-  border-radius: 5px;
+  border-radius: 30px;
   height: 100%;
   width: 0%;
   transition: width 0.1s linear;
@@ -126,7 +126,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 30px;
-  right: 20px;
+  right: 30px;
   bottom: 5px;
 }
 .volume-container:hover .volume-control {
@@ -135,11 +135,11 @@ body {
 .volume-control {
   -webkit-appearance: none;
   outline: none;
-  border: solid 1px rgb(199, 199, 199);
-  background-color: rgb(199, 199, 199);
+  border: solid 3px rgb(199, 199, 199);
+  background-color: rgb(247, 239, 239);
   transform: rotate(-90deg);
   width: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   display: none;
   overflow: hidden;
   cursor: pointer;
@@ -147,9 +147,9 @@ body {
 .volume-control::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 5px;
-  height: 15px;
-  background-color: rgb(2, 76, 172);
-  box-shadow: -100px 0px 0 100px rgb(2, 76, 172);
+  height: 13px;
+  background-color: rgb(71, 121, 163);
+  box-shadow: -100px 0px 0 100px rgb(84, 128, 185);
   cursor: pointer;
 }
 
@@ -162,19 +162,19 @@ body {
 }
 
 .fas {
-  font-size: 30px;
+  font-size: 37px;
   color: rgb(129, 129, 129);
   margin: 0 20px;
   cursor: pointer;
   user-select: none;
 }
 .fa-volume-down {
-  font-size: 20px;
+  font-size: 28px;
   margin: 0;
 }
 
 .fas:hover {
-  filter: brightness(80%);
+  filter: brightness(60%);
 }
 .main-button {
   font-size: 40px;
