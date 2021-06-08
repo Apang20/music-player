@@ -1,4 +1,4 @@
-#  :musical_note: Music-Player:headphones:
+#  :musical_note: Music-Player :headphones:
 
 # [View Live!](https://apang20.github.io/) - In Progress
 
