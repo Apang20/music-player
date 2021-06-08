@@ -15,20 +15,25 @@ const progressBar = document.querySelector('.progress');
 //Playlist from youtube audio library
 const playlist = [
     
-    {name: 'moment', displayName: 'Moment', artist: 'Emily Glass'},
+    {name: 'strut', displayName: 'Strut', artist: 'Ocean Sunrise'},
     {name: 'dreams', displayName: 'Dreams', artist: 'Faded Rainbows'},
-    {name: 'strut', displayName: 'Strut', artist: 'The Sunrise Mist'},
-    {name: 'lemon', displayName: 'Lemon', artist: 'Citrus Drop'},
+    {name: 'lemon', displayName: 'Lemon', artist: 'Citrus Drops'},
     {name: 'tenderness', displayName: 'Tenderness', artist: 'Marie Bolton'},
-    {name: 'journey', displayName: 'Journey', artist: 'Forgotten Roads'},
-    {name: 'adventure', displayName: 'Adventure', artist: 'Pink Horizons'},
-    {name: 'arrival', displayName: 'Arrival', artist: 'Stellar Skies'},
+    {name: 'bloom', displayName: 'Bloom', artist: 'Pink Satin'},
+    {name: 'phases', displayName: 'Phases', artist: 'Elizabeth Snow'},
+    {name: 'arrival', displayName: 'Arrival', artist: 'Encrypted Cloud'},
+    {name: 'journey', displayName: 'Journey', artist: 'The Shortcut'},
+    {name: 'action', displayName: 'Action', artist: 'Wolf Pack 9'},
+    {name: 'saturn', displayName: 'Saturn', artist: 'Solar Green'},
     {name: 'dawn', displayName: 'Dawn', artist: 'Pensive Silence'},
+    {name: 'charming', displayName: 'Charming', artist: 'Lily Rose'},
+    {name: 'moment', displayName: 'Moment', artist: 'Emily Glass'},
+    {name: 'closer', displayName: 'Closer', artist: 'Smith Brown'},
+    {name: 'avenue', displayName: 'Avenue', artist: 'Red Satin'},
     {name: 'galaxy', displayName: 'Galaxy', artist: 'OmniSounds'},
-    {name: 'memories', displayName: 'Memories', artist: 'Bailey Wind'},
-    {name: 'action', displayName: 'Action', artist: 'Force Field Flex'},
-    {name: 'rumble', displayName: 'Rumble', artist: 'The Heist'},
-    {name: 'epic', displayName: 'Epic', artist: 'Viking Freeze'}
+    {name: 'memories', displayName: 'Memories', artist: 'Bailey Rivers'},
+    {name: 'rumble', displayName: 'Rumble', artist: 'The Plan'},
+    {name: 'epic', displayName: 'Epic', artist: 'Metal Spear'}
 ];
 
 
@@ -54,14 +59,14 @@ function pauseMusic() {
 
 // Previous Music
 function playPrevMusic() {
-  musicIndex = musicIndex === 0 ? 14 : musicIndex - 1;
+  musicIndex = musicIndex === 0 ? 18 : musicIndex - 1;
   loadMusic(playlist[musicIndex]);
   playMusic();
 }
 
 // Next Music
 function playNextMusic() {
-  musicIndex = musicIndex === 14 ? 0 : musicIndex + 1;
+  musicIndex = musicIndex === 18 ? 0 : musicIndex + 1;
   loadMusic(playlist[musicIndex]);
   playMusic();
 }
