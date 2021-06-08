@@ -7,8 +7,8 @@ const volumeControl = document.getElementById('volume-control');
 const songImage = document.querySelector('.song-image');
 const songTitle = document.querySelector('.song-title');
 const songArtist = document.querySelector('.song-artist');
-const durationTotal = document.querySelector('.duration__total');
-const durationNow = document.querySelector('.duration__now');
+const durationTotal = document.querySelector('.duration_total');
+const durationNow = document.querySelector('.duration_now');
 const progressContainer = document.querySelector('.progress-container');
 const progressBar = document.querySelector('.progress');
 
