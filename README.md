@@ -1,6 +1,6 @@
 #  :musical_note: Music-Player :headphones:
 
-# [View Live!]() - in progress
+# [View Live!](https://apang20.github.io/music-player/) - in progress
 
 
 ## Overview
@@ -28,6 +28,6 @@ A user can do the following:
 - [Favicon](https://icon-icons.com/)
 - [Royalty Free Music from Bensound](https://www.bensound.com/royalty-free-music/)
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
-- [GIF]("https://media.giphy.com/media/5xaOcLrTLTxXq7W4sko/giphy.gif") 
+- [GIF](https://media.giphy.com/media/5xaOcLrTLTxXq7W4sko/giphy.gif) 
 - Project Inspired by: [javascript20-projects](https://github.com/zero-to-mastery/javascript20-projects)/ Additonal customizations: Favicon, CSS3, HTML5, JS format
 
