@@ -17,15 +17,15 @@ const playlist = [
     
     {name: 'dreams', displayName: 'Dreams', artist: 'Bensound'},
     {name: 'journey', displayName: 'Journey', artist: 'Bensound'},
-    {name: 'action', displayName: 'Action', artist: 'Bensound'},
+    {name: 'arrival', displayName: 'Arrival', artist: 'Bensound'},
+    {name: 'epic', displayName: 'Epic', artist: 'Bensound'},
     {name: 'rumble', displayName: 'Rumble', artist: 'Bensound'},
     {name: 'strut', displayName: 'Strut', artist: 'Bensound'},
     {name: 'adventure', displayName: 'Adventure', artist: 'Bensound'},
     {name: 'tenderness', displayName: 'Tenderness', artist: 'Bensound'},
     {name: 'galaxy', displayName: 'Galaxy', artist: 'Bensound'},
     {name: 'memories', displayName: 'Memories', artist: 'Bensound'},
-    {name: 'epic', displayName: 'Epic', artist: 'Bensound'},
-    {name: 'arrival', displayName: 'Arrival', artist: 'Bensound'},
+    {name: 'action', displayName: 'Action', artist: 'Bensound'},
     {name: 'unpredictable', displayName: 'Unpredictable', artist: 'Bensound'},
 ];
 
