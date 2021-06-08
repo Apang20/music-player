@@ -15,18 +15,20 @@ const progressBar = document.querySelector('.progress');
 //Playlist from youtube audio library
 const playlist = [
     
-    {name: 'moment', displayName: 'Moment', artist: 'Bensound'},
-    {name: 'strut', displayName: 'Strut', artist: 'Bensound'},
-    {name: 'dreams', displayName: 'Dreams', artist: 'Bensound'},
-    {name: 'journey', displayName: 'Journey', artist: 'Bensound'},
-    {name: 'adventure', displayName: 'Adventure', artist: 'Bensound'},
-    {name: 'arrival', displayName: 'Arrival', artist: 'Bensound'},
-    {name: 'tenderness', displayName: 'Tenderness', artist: 'Bensound'},
-    {name: 'galaxy', displayName: 'Galaxy', artist: 'Bensound'},
-    {name: 'memories', displayName: 'Memories', artist: 'Bensound'},
-    {name: 'action', displayName: 'Action', artist: 'Bensound'},
-    {name: 'epic', displayName: 'Epic', artist: 'Bensound'},
-    {name: 'rumble', displayName: 'Rumble', artist: 'Bensound'},
+    {name: 'moment', displayName: 'Moment', artist: 'Emily Glass'},
+    {name: 'dreams', displayName: 'Dreams', artist: 'Faded Rainbows'},
+    {name: 'strut', displayName: 'Strut', artist: 'The Sunrise Mist'},
+    {name: 'lemon', displayName: 'Lemon', artist: 'Citrus Drop'},
+    {name: 'tenderness', displayName: 'Tenderness', artist: 'Marie Bolton'},
+    {name: 'journey', displayName: 'Journey', artist: 'Forgotten Roads'},
+    {name: 'adventure', displayName: 'Adventure', artist: 'Pink Horizons'},
+    {name: 'arrival', displayName: 'Arrival', artist: 'Stellar Skies'},
+    {name: 'dawn', displayName: 'Dawn', artist: 'Pensive Silence'},
+    {name: 'galaxy', displayName: 'Galaxy', artist: 'OmniSounds'},
+    {name: 'memories', displayName: 'Memories', artist: 'Bailey Wind'},
+    {name: 'action', displayName: 'Action', artist: 'Force Field Flex'},
+    {name: 'rumble', displayName: 'Rumble', artist: 'The Heist'},
+    {name: 'epic', displayName: 'Epic', artist: 'Viking Freeze'}
 ];
 
 
@@ -52,14 +54,14 @@ function pauseMusic() {
 
 // Previous Music
 function playPrevMusic() {
-  musicIndex = musicIndex === 0 ? 12 : musicIndex - 1;
+  musicIndex = musicIndex === 0 ? 14 : musicIndex - 1;
   loadMusic(playlist[musicIndex]);
   playMusic();
 }
 
 // Next Music
 function playNextMusic() {
-  musicIndex = musicIndex === 12 ? 0 : musicIndex + 1;
+  musicIndex = musicIndex === 14 ? 0 : musicIndex + 1;
   loadMusic(playlist[musicIndex]);
   playMusic();
 }
