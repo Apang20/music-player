@@ -15,18 +15,18 @@ const progressBar = document.querySelector('.progress');
 //Playlist from youtube audio library
 const playlist = [
     
+    {name: 'moment', displayName: 'Moment', artist: 'Bensound'},
+    {name: 'strut', displayName: 'Strut', artist: 'Bensound'},
     {name: 'dreams', displayName: 'Dreams', artist: 'Bensound'},
     {name: 'journey', displayName: 'Journey', artist: 'Bensound'},
-    {name: 'arrival', displayName: 'Arrival', artist: 'Bensound'},
-    {name: 'epic', displayName: 'Epic', artist: 'Bensound'},
-    {name: 'rumble', displayName: 'Rumble', artist: 'Bensound'},
-    {name: 'strut', displayName: 'Strut', artist: 'Bensound'},
     {name: 'adventure', displayName: 'Adventure', artist: 'Bensound'},
+    {name: 'arrival', displayName: 'Arrival', artist: 'Bensound'},
     {name: 'tenderness', displayName: 'Tenderness', artist: 'Bensound'},
     {name: 'galaxy', displayName: 'Galaxy', artist: 'Bensound'},
     {name: 'memories', displayName: 'Memories', artist: 'Bensound'},
     {name: 'action', displayName: 'Action', artist: 'Bensound'},
-    {name: 'unpredictable', displayName: 'Unpredictable', artist: 'Bensound'},
+    {name: 'epic', displayName: 'Epic', artist: 'Bensound'},
+    {name: 'rumble', displayName: 'Rumble', artist: 'Bensound'},
 ];
 
 
