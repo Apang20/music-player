@@ -17,13 +17,16 @@ const playlist = [
     
     {name: 'dreams', displayName: 'Dreams', artist: 'Bensound'},
     {name: 'journey', displayName: 'Journey', artist: 'Bensound'},
-    {name: 'arrival', displayName: 'Arrival', artist: 'Bensound'},
+    {name: 'action', displayName: 'Action', artist: 'Bensound'},
     {name: 'rumble', displayName: 'Rumble', artist: 'Bensound'},
     {name: 'strut', displayName: 'Strut', artist: 'Bensound'},
-    {name: 'unpredictable', displayName: 'Unpredictable', artist: 'Bensound'},
     {name: 'adventure', displayName: 'Adventure', artist: 'Bensound'},
     {name: 'tenderness', displayName: 'Tenderness', artist: 'Bensound'},
-    {name: 'memories', displayName: 'Memories', artist: 'Bensound'}
+    {name: 'galaxy', displayName: 'Galaxy', artist: 'Bensound'},
+    {name: 'memories', displayName: 'Memories', artist: 'Bensound'},
+    {name: 'epic', displayName: 'Epic', artist: 'Bensound'},
+    {name: 'arrival', displayName: 'Arrival', artist: 'Bensound'},
+    {name: 'unpredictable', displayName: 'Unpredictable', artist: 'Bensound'},
 ];
 
 
@@ -49,14 +52,14 @@ function pauseMusic() {
 
 // Previous Music
 function playPrevMusic() {
-  musicIndex = musicIndex === 0 ? 8 : musicIndex - 1;
+  musicIndex = musicIndex === 0 ? 12 : musicIndex - 1;
   loadMusic(playlist[musicIndex]);
   playMusic();
 }
 
 // Next Music
 function playNextMusic() {
-  musicIndex = musicIndex === 8 ? 0 : musicIndex + 1;
+  musicIndex = musicIndex === 12 ? 0 : musicIndex + 1;
   loadMusic(playlist[musicIndex]);
   playMusic();
 }
