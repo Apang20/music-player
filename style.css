@@ -11,7 +11,10 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: #000000;
+  background-image: url("https://media.giphy.com/media/5xaOcLrTLTxXq7W4sko/giphy.gif");
+  /* background-image: url("https://wallpapercave.com/wp/wp2337052.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
