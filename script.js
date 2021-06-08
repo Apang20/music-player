@@ -1,9 +1,11 @@
-const image = document.querySelector('img'); 
-const title = document.getElementById('title'); 
+const image = document.querySelector('img');
+const title = document.getElementById('title');
 const artist = document.getElementById('artist');
 const music = document.querySelector('audio');
 const progressContainer = document.getElementById('progress-container');
-const progress = document.getElementById('progress'); 
+const progress = document.getElementById('progress');
+const currentTimeEl = document.getElementById('current-time');
+const durationEl = document.getElementById('duration');
 const prevBtn = document.getElementById('prev');
 const playBtn = document.getElementById('play');
 const nextBtn = document.getElementById('next');
@@ -28,26 +30,26 @@ const songs = [
         name: 'onceagain',
         displayName: 'Once Again',
         artist: 'Bensound'
-     },
-     {
+    },
+    {
         name: 'tenderness',
         displayName: 'Tenderness',
         artist: 'Bensound'
-     }
-]; 
+    }
+];
 
-let isPlaying = false; 
+let isPlaying = false;
 
-function playSong(){
+function playSong() {
     isPlaying = true;
-    playBtn.classList.replace('fa-play', 'fa-pause'); 
+    playBtn.classList.replace('fa-play', 'fa-pause');
     playBtn.setAttribute('title', 'Pause')
     music.play();
 }
 
-function pauseSong(){
+function pauseSong() {
     isPlaying = false;
-    playBtn.classList.replace('fa-pause', 'fa-play'); 
+    playBtn.classList.replace('fa-pause', 'fa-play');
     playBtn.setAttribute('title', 'Play')
     music.pause();
 }
@@ -55,44 +57,59 @@ function pauseSong(){
 playBtn.addEventListener('click', () => (isPlaying ? pauseSong() : playSong()));
 
 //Update DOM
-function loadSong(song){
+function loadSong(song) {
     title.textContent = song.displayName;
-    artist.textContent = song.artist; 
-    music.src = `music/${song.name}.mp3`; 
+    artist.textContent = song.artist;
+    music.src = `music/${song.name}.mp3`;
     image.src = `img/${song.name}.jpg`
 }
 
 //Current Song 
 let songIndex = 0;
 
-function prevSong(){
+function prevSong() {
     songIndex--;
     if (songIndex < 0) {
-        songIndex = songs.length - 1; 
+        songIndex = songs.length - 1;
     }
     loadSong(songs[songIndex]);
     playSong();
 }
 
-function nextSong(){
+function nextSong() {
     songIndex++;
-    if (songIndex > songs.length - 1){
-        songIndex = 0; 
+    if (songIndex > songs.length - 1) {
+        songIndex = 0;
     }
     loadSong(songs[songIndex]);
     playSong();
 }
 
-loadSong(songs[songIndex]); 
+loadSong(songs[songIndex]);
 
-function updateProgressBar(e){
-    if (isPlaying){
-        const { duration, currentTime} = e.srcElement;
+function updateProgressBar(e) {
+    if (isPlaying) {
+        const { duration, currentTime } = e.srcElement;
         const progressPercent = (currentTime / duration) * 100;
-        progress.style.width = `${progressPercent}%`; 
+        progress.style.width = `${progressPercent}%`;
+
+        const durationMinutes = Math.floor(duration / 60);
+        let durationSeconds = Math.floor(duration % 60);
+        if (durationSeconds < 10) {
+            durationSeconds = `0${durationSeconds}`;
+        }
+        if (durationSeconds) {
+            durationEl.textContent = `${durationMinutes}:${durationSeconds}`;
+        }
+
+        const durationMinutes = Math.floor(duration / 60);
+        let durationSeconds = Math.floor(duration % 60);
+        if (durationSeconds < 10) {
+            durationSeconds = `0${durationSeconds}`;
+        }
     }
 }
 
 prevBtn.addEventListener('click', prevSong);
 nextBtn.addEventListener('click', nextSong);
-music.addEventListener('timeupdate', updateProgressBar); 
+music.addEventListener('timeupdate', updateProgressBar);
