@@ -4,7 +4,7 @@
 
 
 ## Overview
-An music player application with 19 tracks of music user's can enjoy 
+An music player application with 19 tracks of music users can enjoy 
 
 
 ## Technologies 
