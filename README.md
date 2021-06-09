@@ -4,6 +4,8 @@
 <img src="music-player.gif">
 
 
+
+
 ## Overview
 A music player application with custom controls, animation and responsive design
 
