@@ -21,7 +21,7 @@ body {
   font-size: 12px;
 }
 .player {
-  height: 450px;
+  height: 425px;
   width: 410px;
   min-width: 400px;
   margin-top: 100px;
@@ -127,7 +127,7 @@ body {
   align-items: center;
   width: 30px;
   right: 30px;
-  bottom: 5px;
+  bottom: 4px;
 }
 .volume-container:hover .volume-control {
   display: block;
@@ -143,7 +143,9 @@ body {
   display: none;
   overflow: hidden;
   cursor: pointer;
+  font-size: 26px;
 }
+
 .volume-control::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 5px;
@@ -178,10 +180,10 @@ body {
 }
 
 #shuffle {
-  font-size: 30px;
+  font-size: 26px;
   position: absolute;
-  bottom: 0px;
-  left: 20px;
+  bottom: 5px;
+  left: 15px;
   color: rgb(129, 129, 129);
 }
 
