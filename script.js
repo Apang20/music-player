@@ -95,7 +95,6 @@ function loadMusic(music) {
   musicArtist.textContent = music.artist;
   audio.src = `music/${music.name}.mp3`;
 }
-
 // get duration
 function setDuration() {
     const musicDuration = audio.duration;
