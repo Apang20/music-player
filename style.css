@@ -176,6 +176,15 @@ body {
 .fas:hover {
   filter: brightness(60%);
 }
+
+#shuffle {
+  font-size: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  color: rgb(129, 129, 129);
+}
+
 .main-button {
   font-size: 40px;
   position: relative;

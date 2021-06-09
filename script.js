@@ -1,4 +1,5 @@
 const audio = document.querySelector('audio');
+const shuffleBtn = document.getElementById('shuffle');
 const prevBtn = document.getElementById('btn-prev');
 const playBtn = document.getElementById('btn-play');
 const nextBtn = document.getElementById('btn-next');
@@ -39,6 +40,14 @@ const playlist = [
 //Check if Playing
 let isPlaying = false;
 let musicIndex = 0;
+
+// Shuffle Songs
+function shuffleSongs() { 
+    isPlaying = true;
+    loadMusic(playlist[Math.floor(Math.random() * playlist.length)]);
+    playBtn.classList.replace('fa-play', 'fa-pause');
+    audio.play();
+};
 
 // Play
 function playMusic() {
@@ -104,6 +113,8 @@ function setProgressBar(event) {
   const { duration } = audio;
   audio.currentTime = (clickX * duration) / width;
 }
+
+shuffleBtn.addEventListener('click', shuffleSongs);
 
 playBtn.addEventListener('click', () => {
   isPlaying ? pauseMusic() : playMusic();
