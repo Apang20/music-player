@@ -15,7 +15,7 @@ const progressBar = document.querySelector('.progress');
 
 const playlist = [
     
-    {name: 'strut', displayName: 'strut', artist: 'Ocean Sunrise'},
+    {name: 'strut', displayName: 'Strut', artist: 'Ocean Sunrise', fileName: 'strut'},
     {name: 'dreams', displayName: 'Dreams', artist: 'Faded Rainbows'},
     {name: 'lemon', displayName: 'Lemon', artist: 'Citrus Drops'},
     {name: 'tenderness', displayName: 'Tenderness', artist: 'Marie Bolton'},
@@ -86,7 +86,7 @@ function setVolume(value) {
 
 // //Update DOM
 function loadMusic(music) {
-  songImage.src = `img/${music.displayName}.jpg`;
+  songImage.src = `img/${music.fileName}.jpg`;
   songTitle.textContent = music.displayName;
   songArtist.textContent = music.artist;
   audio.src = `music/${music.name}.mp3`;
