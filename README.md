@@ -4,12 +4,13 @@
 <img src="music-player.gif">
 
 
-
-
-
 ## Overview
-An music player application with 19 tracks of music users can enjoy 
+A music player application with custom controls, animation and responsive design
 
+## What I learned
+- How to customize default styled element
+- Search and apply events and methods of audio element
+- Use this in inline event-handler to access information of DOM element
 
 ## Technologies 
 - Imported Audio Files 
