@@ -15,7 +15,7 @@ const progressBar = document.querySelector('.progress');
 
 const playlist = [
     
-    {name: 'strut', displayName: 'Strut', artist: 'Ocean Sunrise'},
+    {name: 'strut', displayName: 'strut', artist: 'Ocean Sunrise'},
     {name: 'dreams', displayName: 'Dreams', artist: 'Faded Rainbows'},
     {name: 'lemon', displayName: 'Lemon', artist: 'Citrus Drops'},
     {name: 'tenderness', displayName: 'Tenderness', artist: 'Marie Bolton'},
