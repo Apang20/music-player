@@ -15,25 +15,25 @@ const progressBar = document.querySelector('.progress');
 
 const playlist = [
     
-    {name: 'strut', displayName: 'Strut', artist: 'Ocean Sunrise', fileName: 'strut'},
-    {name: 'dreams', displayName: 'Dreams', artist: 'Faded Rainbows'},
-    {name: 'lemon', displayName: 'Lemon', artist: 'Citrus Drops'},
-    {name: 'tenderness', displayName: 'Tenderness', artist: 'Marie Bolton'},
-    {name: 'bloom', displayName: 'Bloom', artist: 'Pink Satin'},
-    {name: 'phases', displayName: 'Phases', artist: 'Elizabeth Snow'},
-    {name: 'arrival', displayName: 'Arrival', artist: 'Encrypted Cloud'},
-    {name: 'journey', displayName: 'Journey', artist: 'The Shortcut'},
-    {name: 'action', displayName: 'Action', artist: 'Wolf Pack 9'},
-    {name: 'saturn', displayName: 'Saturn', artist: 'Solar Green'},
-    {name: 'dawn', displayName: 'Dawn', artist: 'Pensive Silence'},
-    {name: 'charming', displayName: 'Charming', artist: 'Lily Rose'},
-    {name: 'moment', displayName: 'Moment', artist: 'Emily Glass'},
-    {name: 'closer', displayName: 'Closer', artist: 'Smith Brown'},
-    {name: 'avenue', displayName: 'Avenue', artist: 'Red Satin'},
-    {name: 'galaxy', displayName: 'Galaxy', artist: 'OmniSounds'},
-    {name: 'memories', displayName: 'Memories', artist: 'Bailey Rivers'},
-    {name: 'rumble', displayName: 'Rumble', artist: 'The Plan'},
-    {name: 'epic', displayName: 'Epic', artist: 'Metal Spear'}
+    {name: 'strut', displayName: 'strut', artist: 'Ocean Sunrise', fileName: 'Strut'},
+    {name: 'dreams', displayName: 'dreams', artist: 'Faded Rainbows', fileName: 'Dreams'},
+    {name: 'lemon', displayName: 'lemon', artist: 'Citrus Drops', fileName: 'Lemon'},
+    {name: 'tenderness', displayName: 'tenderness', artist: 'Marie Bolton', fileName: 'Tenderness'},
+    {name: 'bloom', displayName: 'bloom', artist: 'Pink Satin', fileName: 'Velvet Bloom'},
+    {name: 'phases', displayName: 'phases', artist: 'Elizabeth Snow', fileName: 'Phases'},
+    {name: 'arrival', displayName: 'arrival', artist: 'Encrypted Cloud', fileName: 'The Arrival'},
+    {name: 'journey', displayName: 'journey', artist: 'The Shortcut', fileName: 'Journey'},
+    {name: 'action', displayName: 'action', artist: 'Wolf Pack 9', fileName: 'Action'},
+    {name: 'saturn', displayName: 'saturn', artist: 'Solar Green', fileName: 'Saturns Rings'},
+    {name: 'dawn', displayName: 'dawn', artist: 'Pensive Silence', fileName: 'Final Dawn'},
+    {name: 'charming', displayName: 'charming', artist: 'Lily Rose', fileName: 'Charming'},
+    {name: 'moment', displayName: 'moment', artist: 'Emily Glass', fileName: 'Little Moments'},
+    {name: 'closer', displayName: 'closer', artist: 'Smith Brown', fileName: 'Closer'},
+    {name: 'avenue', displayName: 'avenue', artist: 'Red Satin', fileName: 'NOLA Avenue'},
+    {name: 'galaxy', displayName: 'galaxy', artist: 'OmniSounds', fileName: 'New Galaxies'},
+    {name: 'memories', displayName: 'memories', artist: 'Bailey Rivers', fileName: 'Fading Memories'},
+    {name: 'rumble', displayName: 'rumble', artist: 'The Plan', fileName: 'Richtor Scale'},
+    {name: 'epic', displayName: 'epic', artist: 'Metal Spear', fileName: 'Stamford Bridge'}
 ];
 
 
