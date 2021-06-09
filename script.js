@@ -4,14 +4,9 @@ const playBtn = document.getElementById('btn-play');
 const nextBtn = document.getElementById('btn-next');
 const volumeBtn = document.getElementById('btn-volume');
 const volumeControl = document.getElementById('volume-control');
-// const songImage = document.querySelector('.song-image');
-// const songTitle = document.querySelector('.song-title');
-// const songArtist = document.querySelector('.song-artist');
-
-const songImage = document.querySelector('.music__image');
-const songTitle = document.querySelector('.music__title');
-const songArtist = document.querySelector('.music__artist');
-
+const songImage = document.querySelector('.song-image');
+const songTitle = document.querySelector('.song-title');
+const songArtist = document.querySelector('.song-artist');
 const durationTotal = document.querySelector('.duration_total');
 const durationNow = document.querySelector('.duration_now');
 const progressContainer = document.querySelector('.progress-container');
