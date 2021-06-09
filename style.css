@@ -11,6 +11,87 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 12px;
+}
+.player {
+  height: 400px;
+  width: 400px;
+  min-width: 400px;
+  margin-top: 100px;
+  background: rgb(26, 29, 28);
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px 5px rgba(255, 255, 255, 0.3);
+  color: whitesmoke;
+}
+.music__image--record {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.music__image {
+  display: block;
+  margin-top: -120px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.5);
+  animation: rotate 30s linear infinite forwards;
+  animation-play-state: paused;
+}
+.music__image--rotate {
+  animation-play-state: running;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.record-effect {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-top: -120px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 5%,
+    rgb(185, 185, 185) 5%,
+    rgb(139, 139, 139) 20%,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(255, 255, 255, 1) 75%
+  );
+  border-radius: 50%;
+}
+.music__title {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.music__artist {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin: 5px 0 0;
+}
+
+/* body {
+  margin: 0;
+  min-height: 100vh;
   background-image: url("https://media.giphy.com/media/5xaOcLrTLTxXq7W4sko/giphy.gif");
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,7 +171,7 @@ body {
   text-align: center;
   font-weight: 400;
   margin: 5px 0 0;
-} 
+}  */
 
 /* Progress */
  .progress-container {
