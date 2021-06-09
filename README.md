@@ -1,8 +1,8 @@
 #  :musical_note: Music-Player :headphones:
 
 ## [View Live!](https://apang20.github.io/music-player/) - in progress
-![image](music-player.gif![image](https://user-images.githubusercontent.com/62185859/121281649-de4de680-c89d-11eb-8641-7c97c1f96465.png)
-)
+<img src='https://user-images.githubusercontent.com/62185859/121281761-0e958500-c89e-11eb-9ae4-113273590e86.png'>
+
 
 
 
