@@ -25,14 +25,14 @@ const playlist = [
     {name: 'journey', displayName: 'Journey', artist: 'The Shortcut'},
     {name: 'action', displayName: 'Action', artist: 'Wolf Pack 9'},
     {name: 'saturn', displayName: 'Saturn', artist: 'Solar Green'},
-    // {name: 'dawn', displayName: 'Dawn', artist: 'Pensive Silence'},
-    // {name: 'charming', displayName: 'Charming', artist: 'Lily Rose'},
-    // {name: 'moment', displayName: 'Moment', artist: 'Emily Glass'},
-    // {name: 'closer', displayName: 'Closer', artist: 'Smith Brown'},
-    // {name: 'avenue', displayName: 'Avenue', artist: 'Red Satin'},
-    // {name: 'galaxy', displayName: 'Galaxy', artist: 'OmniSounds'},
-    // {name: 'memories', displayName: 'Memories', artist: 'Bailey Rivers'},
-    // {name: 'rumble', displayName: 'Rumble', artist: 'The Plan'},
+    {name: 'dawn', displayName: 'Dawn', artist: 'Pensive Silence'},
+    {name: 'charming', displayName: 'Charming', artist: 'Lily Rose'},
+    {name: 'moment', displayName: 'Moment', artist: 'Emily Glass'},
+    {name: 'closer', displayName: 'Closer', artist: 'Smith Brown'},
+    {name: 'avenue', displayName: 'Avenue', artist: 'Red Satin'},
+    {name: 'galaxy', displayName: 'Galaxy', artist: 'OmniSounds'},
+    {name: 'memories', displayName: 'Memories', artist: 'Bailey Rivers'},
+    {name: 'rumble', displayName: 'Rumble', artist: 'The Plan'},
     {name: 'epic', displayName: 'Epic', artist: 'Metal Spear'}
 ];
 
