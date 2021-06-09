@@ -22,10 +22,11 @@ A music player application with custom controls, animation and responsive design
 ## User Stories
 A user can do the following:
 - Browse all music
-- Fastforward and rewind songs
+- Fast-forward and rewind songs
 - Manipulate progress bar
-- Enjoy the record spinning feature of the album cover (customized feature)
-- Control volume (customized feature)
+- Shuffle Songs (added customized featured)
+- Enjoy the record spinning feature of the album cover (added customized feature)
+- Control volume (added customized feature)
 
  
 
