@@ -14,7 +14,6 @@ const progressContainer = document.querySelector('.progress-container');
 const progressBar = document.querySelector('.progress');
 
 const playlist = [
-    
     {name: 'strut', displayName: 'Strut', artist: 'Ocean Sunrise', fileName: 'strut'},
     {name: 'dreams', displayName: 'Dreams', artist: 'Faded Rainbows', fileName: 'dreams'},
     {name: 'lemon', displayName: 'Lemon', artist: 'Citrus Drops', fileName: 'lemon'},
@@ -24,13 +23,13 @@ const playlist = [
     {name: 'arrival', displayName: 'Arrival', artist: 'Encrypted Cloud', fileName: 'arrival'},
     {name: 'journey', displayName: 'Journey', artist: 'The Shortcut', fileName: 'journey'},
     {name: 'action', displayName: 'Action', artist: 'Wolf Pack 9', fileName: 'action'},
-    {name: 'saturn', displayName: 'Saturn', artist: 'Solar Green', fileName: 'saturns'},
+    {name: 'saturn', displayName: 'Saturn', artist: 'Solar Green', fileName: 'saturn'},
     {name: 'dawn', displayName: 'Dawn', artist: 'Pensive Silence', fileName: 'dawn'},
     {name: 'charming', displayName: 'Charming', artist: 'Lily Rose', fileName: 'charming'},
-    {name: 'moment', displayName: 'Moment', artist: 'Emily Glass', fileName: 'moments'},
+    {name: 'moment', displayName: 'Moment', artist: 'Emily Glass', fileName: 'moment'},
     {name: 'closer', displayName: 'Closer', artist: 'Smith Brown', fileName: 'closer'},
     {name: 'avenue', displayName: 'Avenue', artist: 'Red Satin', fileName: 'avenue'},
-    {name: 'galaxy', displayName: 'Galaxy', artist: 'OmniSounds', fileName: 'galaxies'},
+    {name: 'galaxy', displayName: 'Galaxy', artist: 'OmniSounds', fileName: 'galaxy'},
     {name: 'memories', displayName: 'Memories', artist: 'Bailey Rivers', fileName: 'memories'},
     {name: 'rumble', displayName: 'Rumble', artist: 'The Plan', fileName: 'rumble'},
     {name: 'epic', displayName: 'Epic', artist: 'Metal Spear', fileName: 'epic'}
